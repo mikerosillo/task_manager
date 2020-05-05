@@ -17,19 +17,7 @@ class App extends Component {
     return(
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      <div>some text</div>
+        <h1>TASK MANAGER</h1>
       </header>
       <Container handleValues={this.handleValues} one={this.state.one} two={this.state.two} three={this.state.three}/>
     </div>
