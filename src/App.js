@@ -8,11 +8,26 @@ class App extends Component {
   state={
     one:'1',
     two:'2',
-    three:'3'
+    three:'3',
+    showModal:false,
   }
   handleValues = (newState) => {
     this.setState(newState)
   }
+  // handleValue = event => {
+  //   if (this.state.successAlert) {
+  //     this.setState({ successAlert: null });
+  //   }
+  //   if (this.state.alert) {
+  //     this.setState({ alert: null });
+  //   }
+  //   const target = event.target;
+  //   const value = target.value;
+  //   const name = target.name;
+  //   this.setState({
+  //     [name]: value
+  //   });
+  // }
   render = () => {
     return(
     <div className="App">
