@@ -13,7 +13,7 @@ const Add = props => {
         <Modal.Header closeButton>
           <Modal.Title>Task details</Modal.Title>
         </Modal.Header>
-        <Modal.Body><TaskDetails handleClose={props.handleClose} valueHandler={props.valueHandler} /></Modal.Body>
+        <Modal.Body><TaskDetails hours={props.hours} minutes={props.minutes} seconds={props.seconds} taskEstimatedTime={props.taskEstimatedTime} taskDescription={props.taskDescription} taskName={props.taskName} handleClose={props.handleClose} handleValues={props.handleValues} tasks={props.tasks} /></Modal.Body>
         {/* <Modal.Footer>
           <Button variant="secondary" onClick={props.handleClose}>
             Close
